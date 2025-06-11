@@ -14,7 +14,7 @@ export const ticketsMock: Ticket[] = [
   {
     id: 2,
     title: "Falha no sistema de pagamento",
-    status: "Em Progresso",
+    status: "Em progresso",
     lastUpdated: "08/06/2025",
     description: "Pagamento não processado corretamente.",
     creator: "Maria da Silva",
@@ -44,7 +44,7 @@ export const ticketsMock: Ticket[] = [
      {
     id: 5,
     title: "Troca de produto",
-    status: "Em Progresso",
+    status: "Em progresso",
     lastUpdated: "12/06/2025",
     description: "Como devo mandar o produto para troca ?",
     creator: "Sara Mendes",
