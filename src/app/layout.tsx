@@ -4,7 +4,7 @@ import  Footer  from "@/components/Footer/index";
 
 export const metadata = {
   title: "Sistema de Tickets",
-  description: "Gerencie seus tickets",
+  description: "Gerenciamento de tickets",
 };
 
 export default function RootLayout({

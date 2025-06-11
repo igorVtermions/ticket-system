@@ -14,11 +14,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Modal from "@/components/Modal";
+import { Ticket } from "@/types/ticket";
 
 export default function Tickets() {
-  const [tickets, setTickets] = useState(ticketsMock);
+  const [tickets, setTickets] = useState<Ticket[]>(ticketsMock);
 
-  const handleStatus = (ticketId, newStatus) => {
+  const handleStatus = (ticketId: number, newStatus: string) => {
     setTickets(
       tickets.map((ticket) =>
         ticket.id === ticketId ? { ...ticket, status: newStatus } : ticket
@@ -48,10 +49,19 @@ export default function Tickets() {
                 <td className="py-2 px-4">
                   <Dialog>
                     <DialogTrigger asChild>
-                      <Button variant="link" className="p-0 text-lg cursor-pointer">{ticket.title}</Button>
+                      <Button
+                        variant="link"
+                        className="p-0 text-lg cursor-pointer"
+                      >
+                        {ticket.title}
+                      </Button>
                     </DialogTrigger>
                     <DialogContent>
-                      <Modal ticket={ticket} setTickets={setTickets} tickets={tickets} />
+                      <Modal
+                        ticket={ticket}
+                        setTickets={setTickets}
+                        tickets={tickets}
+                      />
                     </DialogContent>
                   </Dialog>
                 </td>
