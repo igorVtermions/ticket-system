@@ -14,6 +14,8 @@ Este projeto é uma aplicação web que simula um sistema de gerenciamento de ti
 
 <img src="https://cdn.discordapp.com/attachments/1037425403985399841/1382511553013743757/image.png?ex=684b6bb8&is=684a1a38&hm=b304cce9b1ce758ffd6a634764263dfca412525e95a62946bc36c121da5c397b&" alt="Tela de gerenciamento de tickets" />
 
+Link do projeto: https://ticket-system-ryl1.vercel.app 
+
 ---
 
 ## Tecnologias Utilizadas
