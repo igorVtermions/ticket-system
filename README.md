@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ticket System
 
-## Getting Started
+Sistema de gerenciamento de tickets desenvolvido como parte de um teste técnico. Permite visualizar, filtrar, alterar status e adicionar comentários em chamados.
 
-First, run the development server:
+---
+
+## Sobre o Projeto
+
+Este projeto é uma aplicação web que simula um sistema de gerenciamento de tickets de suporte, com foco em boas práticas de desenvolvimento frontend com **Next.js** e **TypeScript**. Além disso, explora recursos de acessibilidade, responsividade e componentização.
+
+---
+
+## Demonstração
+
+<img src="https://cdn.discordapp.com/attachments/1037425403985399841/1382511553013743757/image.png?ex=684b6bb8&is=684a1a38&hm=b304cce9b1ce758ffd6a634764263dfca412525e95a62946bc36c121da5c397b&" alt="Tela de gerenciamento de tickets" />
+
+---
+
+## Tecnologias Utilizadas
+
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Lucide Icons**
+
+---
+
+## Instalação
+
+### Pré-requisitos
+
+- Node.js (v18 ou superior)
+- npm ou yarn
+
+### Passos:
 
 ```bash
+# Clone o projeto
+git clone https://github.com/igorVtermions/ticket-system.git
+
+# Acesse a pasta
+cd ticket-system
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse no navegador: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+| Comando         | Descrição                          |
+| --------------- | ---------------------------------- |
+| `npm run dev`   | Inicia ambiente de desenvolvimento |
+| `npm run build` | Compila o projeto para produção    |
+| `npm run start` | Executa o projeto em produção      |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Listagem de tickets
+- Modal para visualização detalhada
+- Filtro por status dos tickets (Aberto | Em progresso | Concluído)
+- Atualização do status
+- Inserção de comentários por administradores
+- Responsividade
+- Componentes acessíveis
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Dependências Instaladas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# Essenciais
+next
+typescript
+
+# UI/Estilo
+tailwindcss
+@shadcn/ui
+lucide-react
+
+```
+
+---
+
+## Autor
+
+**Igor Vtermions**
+
+- GitHub: [@igorVtermions](https://github.com/igorVtermions)
+- LinkedIn: [linkedin.com/in/seu-username](https://linkedin.com/in/seu-username)
+
+---
+
+## Licença
+
+Este projeto é apenas para fins de teste técnico. Uso livre.
+
